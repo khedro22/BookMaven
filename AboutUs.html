@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        About Us
+    </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            /* Matching your earlier style */
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            text-decoration: underline;
+            text-decoration-color: #FFA500;
+            text-underline-offset: 7px;
+            margin-left: 15px;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            /* Light grey border */
+            border: 1px solid #e0e0e0;
+            /* Rounded corners */
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .values-container {
+            display: flex;
+            gap: 15px;
+            justify-content: space-between;
+            padding: 20px 0;
+            /* This ensures all cards stretch to the height of the tallest card */
+            align-items: stretch;
+        }
+
+        .value-card {
+            flex: 1;
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+
+            /* Add these to keep content centered vertically if one card grows */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Ensure the image doesn't push things unevenly */
+        .value-card img {
+            height: 40px;
+            /* Set a fixed height instead of just width */
+            width: auto;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .stat-number {
+            color: #FFA500;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -1px;
+            text-decoration: none;
+
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        #navbar {
+            display: flex;
+            background-color: black;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px 5px 20px;
+            background-color: #0d0d2b;
+
+
+        }
+
+        #navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        #navbar li {
+            margin: 0px 10px;
+            cursor: pointer;
+
+        }
+
+        #navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #navbar ul li a:hover {
+            color: #f5c16c;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+
+        .btn {
+            text-decoration: none;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+
+        .login {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        .login:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .register {
+            background-color: orange;
+            color: black;
+            padding: 5px 15px;
+            border-radius: 15px;
+        }
+
+        .register:hover {
+            background-color: darkorange;
+            color: white;
+        }
+
+
+        .cart {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 5px 15px;
+            border-radius: 15px;
+        }
+
+        .cart:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .last {
+            display: flex;
+            background-color: #0d0d2b;
+            color: #bfbfbf;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .foottable {
+            border-collapse: separate;
+            border-spacing: 25px;
+            text-align: center;
+            color: lightgray;
+            margin-right: 300;
+        }
+
+        .foottable a {
+            text-decoration: none;
+            color: #bfbfbf;
+
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--navbar-->
+    <div id="navbar">
+
+        <h2 style="text-decoration: none;">📚 BookHaven</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="book categories.html">Categories</a></li>
+            <li><a href="Offers.html">Offers</a></li>
+            <li><a href="AboutUs.html">About</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="Reviews.html">Reviews</a></li>
+        </ul>
+
+        <div class="buttons">
+            <a href="login.html" class="btn login">Login</a>
+            <a href="login.html" class="btn register">Register</a>
+            <a href="Cart.html" class="btn cart">🛒 Cart</a>
+        </div>
+
+    </div>
+    <div style="text-align: center; background-color: #0D0D2B;">
+        <h1 style="color: white; margin-bottom: 5px;margin-top: 0px;">
+            About BookHaven
+        </h1>
+        <p style="text-align: center; color: #a1a1a2; padding-bottom: 25px;">
+            Building a community around the love of reading since 2015.
+        </p>
+    </div>
+
+    <h2>Our Story</h2>
+
+    <p class="card" style="width: 1000px; font-size: 20px;">
+        Founded in 2015, BookHaven began as a small
+        online bookstore with a dream to make books
+        accessible to every reader across the globe.
+        Today we serve 200,000+ readers in 10+ countries.
+        Our team is passionate about books and reading.
+    </p>
+
+    <h2>Our Values</h2>
+    <div class="values-container">
+        <div class="value-card">
+            <img src="Images/Accessibility.png" alt="Accessibility">
+            <h3>Accessibility</h3>
+            <p>Books for everyone</p>
+        </div>
+
+        <div class="value-card">
+            <img src="Images/Diversity.png" alt="Diversity">
+            <h3>Diversity</h3>
+            <p>All genres & voices</p>
+        </div>
+
+        <div class="value-card">
+            <img src="Images/Community.png" alt="Community">
+            <h3>Community</h3>
+            <p>Readers first</p>
+        </div>
+
+        <div class="value-card">
+            <img src="Images/Trust.png" alt="Trust">
+            <h3>Trust</h3>
+            <p>Safe & secure</p>
+        </div>
+    </div>
+
+    <h2>Meet The Team</h2>
+    <div class="values-container">
+        <div class="value-card">
+            <img src="Images/male.png" alt="Mohamed Khedr">
+            <h3>Mohamed Khedr</h3>
+        </div>
+        <div class="value-card">
+            <img src="Images/female.jpg" alt="Mohamed Khedr">
+            <h3>Aya Mohamed</h3>
+        </div>
+    </div>
+
+    <h2>By The Numbers</h2>
+    <div class="values-container">
+        <div class="value-card" style="background-color: #1a1a2e;">
+            <h2 class="stat-number">50,000+</h2>
+            <p style="color:white">Books Available</p>
+        </div>
+        <div class="value-card" style="background-color: #1a1a2e;">
+            <h2 class="stat-number">200K+</h2>
+            <p style="color:white">Happy Readers</p>
+        </div>
+        <div class="value-card" style="background-color: #1a1a2e;">
+            <h2 class="stat-number">4.8</h2>
+            <p style="color:white">Average Rating</p>
+        </div>
+        <div class="value-card" style="background-color: #1a1a2e;">
+            <h2 class="stat-number">10+</h2>
+            <p style="color:white">Countries Served</p>
+        </div>
+
+    </div>
+
+    <div class="last">
+        <p>© 2025 BookHaven. All rights reserved.</p>
+        <table class="foottable">
+            <tr>
+                <td><a href="#">Privacy Policy</a></td>
+                <td><a href="#">Terms of Service</a></td>
+                <td><a href="contact us.html">Contact Us</a></td>
+                <td><a href="#">Newsletter</a></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+#navbar{
+	display:flex;
+	background-color:black;
+	color:white;
+	justify-content:space-between;
+	align-items: center;
+	padding: 5px 10px 5px 20px;
+	background-color: #0d0d2b;
+	
+	
+}
+#navbar ul{
+	list-style:none;
+	display:flex;
+	 gap: 25px;
+}
+
+#navbar li{
+	margin:0px 10px;
+	cursor:pointer;
+	
+}
+#navbar ul li a {
+    color: white;         
+    text-decoration: none; 
+}
+
+#navbar ul li a:hover {
+    color: #f5c16c; 
+}
+.buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+
+.btn {
+    text-decoration: none; 
+    color: white; 
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+	 
+
+.login {
+    background-color: transparent; 
+    color: white;                 
+    border: 2px solid white;       
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.login:hover {
+    background-color: white;
+    color: black;
+}
+
+.register {
+    background-color: orange;
+    color: black;
+    padding: 5px 15px;
+	border-radius: 15px;
+}
+
+.register:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+
+.cart {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white ;
+    padding: 5px 15px;
+	border-radius: 15px;
+}
+
+.cart:hover {
+    background-color: white;
+    color: black;
+}
+
+ h1{
+       text-align: center;
+            margin-bottom: 40px;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background: white;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+
+.tabs {
+    display: flex;
+}
+
+.tabs button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+	height:50px;
+	border:1px solid #ddd;
+
+}
+
+.tabs .active {
+    background-color: #14142b;
+    color: white;
+}
+.form{
+	padding-left:20px;
+	padding-right:5px;
+}
+.form p {
+    display: block;
+    margin-top: 10px;
+}
+.form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.options {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 6px; 
+    font-size: 13px;
+    color: #333;
+   
+}
+
+.remember input {
+    margin: 0;
+    width: 14px;
+    height: 14px;
+    cursor: pointer; 
+}
+    
+.forgot {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.log-btn {
+    display: inline-block; 
+    width: 90%;
+    padding: 10px;
+    background-color: #14142b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center; 
+}
+
+.or {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+	color: #555;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-btn {
+    flex: 1;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-decoration: none; 
+    color: black;         
+    display: flex;         
+    justify-content: center;
+    align-items: center;
+}
+
+.register-text {
+    text-align: center;
+    font-size: 12px;
+	color: #555;
+}
+.here{
+	text-align: center;
+    font-size: 12px;
+	margin-top:10px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last{
+	display:flex;
+	background-color:#0d0d2b;
+	color:#bfbfbf;
+	justify-content:space-between;
+	align-items: center;
+}
+.foottable{
+border-collapse: separate;
+  border-spacing: 25px; 
+  text-align: center;
+  color:lightgray;
+  margin-right:300;
+}
+.foottable a{
+	text-decoration: none;
+	color:#bfbfbf;
+	
+}
