@@ -121,10 +121,8 @@ h2 {
 
 .image-container {
     position: relative;
-    /* This is the anchor */
     width: 100%;
     background-color: #e0e0e0;
-    /* Grey placeholder color */
     border: 1px solid #ddd;
 }
 
@@ -176,7 +174,6 @@ h2 {
 .add-to-cart {
     width: 100%;
     background-color: #1a1a2e;
-    /* Matches your navbar color */
     color: white;
     border: none;
     padding: 10px;
@@ -192,33 +189,23 @@ h2 {
 
 .image-container img {
     width: 100%;
-    /* Takes up the full width of the card */
     height: 300px;
-    /* Set this to your preferred height */
-
-    /* This is the most important line */
     object-fit: cover;
-
     display: block;
-    /* Removes extra space at the bottom of the image */
     border-radius: 8px 8px 0 0;
-    /* Rounds only the top corners */
+
 }
 
 .image-container {
     width: 220px;
-    /* Keeps the card width consistent */
     overflow: hidden;
-    /* Ensures the image doesn't leak out of the corners */
     background-color: #f0f0f0;
-    /* Shows a grey box if the image fails to load */
 }
 
 .books-container {
     display: flex;
-    /* Use 'wrap' so if the screen is too small, they don't squish to 1px width */
     flex-wrap: wrap; 
-    gap: 100px; /* Increased gap for a cleaner look */
+    gap: 100px;
     justify-content: center; /* Centers the group of 4 */
     padding: 20px;
     align-items: stretch;
